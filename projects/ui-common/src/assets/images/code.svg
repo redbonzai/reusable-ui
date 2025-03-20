@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2048"
+   height="1792"
+   viewBox="0 0 2048 1792"
+   id="svg8091"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="code.svg">
+  <metadata
+     id="metadata8099">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8097" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview8095"
+     showgrid="false"
+     inkscape:zoom="0.056568542"
+     inkscape:cx="-1480.0263"
+     inkscape:cy="-440.24655"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8091" />
+  <path
+     d="m 681,1399 -50,50 q -10,10 -23,10 -13,0 -23,-10 L 119,983 q -10,-10 -10,-23 0,-13 10,-23 L 585,471 q 10,-10 23,-10 13,0 23,10 l 50,50 q 10,10 10,23 0,13 -10,23 l -393,393 393,393 q 10,10 10,23 0,13 -10,23 z"
+     id="path8105"
+     style="fill:#949494;fill-opacity:1" />
+  <path
+     d="M 1272,332 899,1623 q -4,13 -15.5,19.5 -11.5,6.5 -23.5,2.5 l -62,-17 q -13,-4 -19.5,-15.5 Q 772,1601 776,1588 L 1149,297 q 4,-13 15.5,-19.5 11.5,-6.5 23.5,-2.5 l 62,17 q 13,4 19.5,15.5 6.5,11.5 2.5,24.5 z"
+     id="path8103"
+     style="stroke:none;stroke-opacity:1;fill:#949494;fill-opacity:1" />
+  <path
+     d="m 1929,983 -466,466 q -10,10 -23,10 -13,0 -23,-10 l -50,-50 q -10,-10 -10,-23 0,-13 10,-23 L 1760,960 1367,567 q -10,-10 -10,-23 0,-13 10,-23 l 50,-50 q 10,-10 23,-10 13,0 23,10 l 466,466 q 10,10 10,23 0,13 -10,23 z"
+     id="path8093"
+     style="fill:#949494;fill-opacity:1" />
+</svg>

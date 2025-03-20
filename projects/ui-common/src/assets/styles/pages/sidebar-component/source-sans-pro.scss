@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "SourceSansPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/source-sans-pro/SourceSansPro-Regular.ttf");
+  src: url("../../fonts/source-sans-pro/SourceSansPro-Regular.ttf?#iefix") format("embedded-opentype"),
+    url("../../fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("woff2"),
+    url("../../fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("woff"),
+    url("../../fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SourceSansProSemibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/source-sans-pro/semibold.eot");
+  src: url("../../fonts/source-sans-pro/semibold.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/source-sans-pro/semibold.woff2") format("woff2"),
+    url("../../fonts/source-sans-pro/semibold.woff") format("woff"),
+    url("../../fonts/source-sans-pro/semibold.ttf") format("truetype");
+}

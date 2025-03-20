@@ -1,0 +1,359 @@
+{
+  "label": "Accurint Virtual Crime Center",
+  "baseUrl": "avcc-cert.usgov-avcc-nonprod.azuregov.lnrsg.io",
+  "items": [
+    {
+      "label": "Trax",
+      "subLabel": "(Device Geolocation and Analytics)",
+      "url": "trax.lexisnexisrisk.com",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "User Name",
+      "subLabel": "User",
+      "icon": "fa-user",
+      "items": [
+        {
+          "label": "Past Announcements",
+          "action": {
+            "actionFn": "openAnnouncements"
+          }
+        },
+        {
+          "label": "Snapshot Manager/Downloads",
+          "url": "/snapshot-manager"
+        },
+        {
+          "label": "Jail Booking Alerts Manager",
+          "url": "/jb-alerts-manager"
+        },
+        {
+          "label": "Data Download Manager",
+          "url": "/download-manager"
+        },
+        {
+          "label": "Project Manager",
+          "url": "/project-manager"
+        },
+        {
+          "label": "Report Manager",
+          "url": "/report-manager"
+        },
+        {
+          "label": "Tag Manager",
+          "url": "/tag-manager"
+        },
+        {
+          "label": "LE Data Coverage",
+          "url": "/coverage"
+        },
+        {
+          "label": "Contact Us",
+          "action": {
+            "actionFn": "openContactUs"
+          }
+        },
+        {
+          "label": "Data Classification Manager",
+          "url": "/data-classification"
+        },
+        {
+          "label": "User Activity",
+          "url": "/activity"
+        },
+        {
+          "label": "User Preferences",
+          "url": "/preferences"
+        }
+      ]
+    },
+    {
+      "label": "DASHBOARD",
+      "icon": "fa-tachometer-alt",
+      "url": "/dashboard"
+    },
+    {
+      "label": "PHOTO LINEUPS",
+      "icon": "fa-camera",
+      "subAction": {
+        "actionCmp": "InitiatePhotoLineupComponent"
+      },
+      "items": [
+        {
+          "label": "Photo lineup1",
+          "id": "12345",
+          "url": "photo-lineup/12345",
+          "subAction": {
+            "icon": "fa-trash-alt",
+            "actionFn": "deletePhotoLineup"
+          },
+          "info": {
+            "icon": "fa-clock",
+            "title": "Lineup will expire after 7 days from initial creation."
+          }
+        },
+        {
+          "label": "Photo lineup2",
+          "id": "12345",
+          "url": "photo-lineup/12345",
+          "subAction": {
+            "icon": "fa-trash-alt",
+            "actionFn": "deletePhotoLineup"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Projects",
+      "icon": "fa-edit",
+      "items": [
+        {
+          "label": "Project1",
+          "id": "12345",
+          "action": "setActiveProject",
+          "subAction": {
+            "icon": "fa-trash-alt",
+            "actionFn": "deleteProject"
+          }
+        },
+        {
+          "label": "Project2",
+          "id": "123456",
+          "action": "setActiveProject",
+          "subAction": {
+            "icon": "fa-trash-alt",
+            "actionFn": "deleteProject"
+          }
+        }
+      ]
+    },
+    {
+      "label": "RECENT SEARCHES",
+      "icon": "fa-search",
+      "subAction": {
+        "icon": "fa-trash-alt",
+        "actionFn": "deleteRecentSearches"
+      },
+      "items": [
+        {
+          "label": "LE Power Search",
+          "subLabel": "2",
+          "icon": "ng-le_power",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/search/power/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/search/power/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Person",
+          "subLabel": "2",
+          "icon": "ng-person",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/search/person/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/search/person/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Advanced Motor Vehicles",
+          "subLabel": "2",
+          "icon": "ng-vehicle",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/search/vehicle/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/search/vehicle/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Business",
+          "subLabel": "2",
+          "icon": "ng-business",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/search/business/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/search/business/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "RECENT REPORTS",
+      "icon": "fa-file-alt",
+      "subAction": {
+        "icon": "fa-trash-alt",
+        "actionFn": "deleteRecentReports"
+      },
+      "items": [
+        {
+          "label": "Comprehensive",
+          "subLabel": "2",
+          "icon": "ng-person",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/report/comprehensive/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteReport"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/report/comprehensive/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteReport"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Business",
+          "subLabel": "2",
+          "icon": "ng-business",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/report/business/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/report/business/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteReport"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Motor Vehicle",
+          "subLabel": "2",
+          "icon": "ng-vehicle",
+          "items": [
+            {
+              "label": "Test1",
+              "id": 12345,
+              "url": "/report/vehicle/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteSearch"
+              }
+            },
+            {
+              "label": "Test2",
+              "id": 12345,
+              "url": "/report/vehicle/12345",
+              "subAction": {
+                "icon": "fa-trash-alt",
+                "actionFn": "deleteReport"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "HELP CENTER",
+      "icon": "fa-circle-question",
+      "url": "/help"
+    },
+    {
+      "label": "ACCURINT",
+      "subLabel": "PUBLIC RECORDS",
+      "icon": "fa-external-link-alt",
+      "action": "redirectToAccurint",
+      "hover": "Go to Accurint"
+    },
+    {
+      "action": "redirectToBabel",
+      "hover": "Babel Street",
+      "img": "babel-street-logo.png"
+    },
+    {
+      "label": "TOGGLE MSI",
+      "icon": "fa-external-link-alt",
+      "action": "toggleMsi",
+      "hover": "MSI Toggle"
+    },
+    {
+      "action": "redirectToClearviewAI",
+      "hover": "Clearview AI",
+      "img": "clearview-ai-logo.png"
+    },
+    {
+      "action": "redirectToInsightLPR",
+      "hover": "Insight LPR",
+      "img": "insight-lpr-logo.png"
+    }
+  ]
+};

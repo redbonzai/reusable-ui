@@ -1,0 +1,509 @@
+@font-face {
+  font-family: "NextGen";
+  src: url("../../fonts/NextGen.eot");
+  src: url("../../fonts/NextGen.eot?#iefix") format("embedded-opentype"), url("../../fonts/NextGen.woff") format("woff"),
+    url("../../fonts/NextGen.ttf") format("truetype"), url("../../fonts/NextGen.svg#NextGen") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ng {
+  display: inline-block;
+  font: normal normal normal 14px/1 NextGen;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.ng-rotate-90 {
+  -webkit-transform: translate(0, 0) rotate(90deg);
+  -moz-transform: translate(0, 0) rotate(90deg);
+  -ms-transform: translate(0, 0) rotate(90deg);
+  -o-transform: translate(0, 0) rotate(90deg);
+  transform: translate(0, 0) rotate(90deg);
+}
+
+.ng-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.ng-2x {
+  font-size: 2em;
+}
+
+.ng-3x {
+  font-size: 3em;
+}
+
+.ng-4x {
+  font-size: 4em;
+}
+
+.ng-5x {
+  font-size: 5em;
+}
+
+.ng-911:before {
+  content: "\e901";
+}
+.ng-agent:before {
+  content: "\e902";
+}
+.ng-aircraft:before {
+  content: "\e903";
+}
+.ng-alarm:before {
+  content: "\e904";
+}
+.ng-alcohol-margarita:before {
+  content: "\e905";
+}
+.ng-alcohol-wine:before {
+  content: "\e906";
+}
+.ng-aos:before {
+  content: "\e970";
+}
+.ng-area-check:before {
+  content: "\e971";
+}
+.ng-assist:before {
+  content: "\e980";
+}
+.ng-asterisk:before {
+  content: "\e907";
+}
+.ng-badge:before {
+  content: "\e908";
+}
+.ng-bell:before {
+  content: "\e960";
+}
+.ng-bell-o:before {
+  content: "\e961";
+}
+.ng-boxing:before {
+  content: "\e909";
+}
+.ng-bubble:before {
+  content: "\e959";
+}
+.ng-bubble-checked:before {
+  content: "\e95a";
+}
+.ng-buildings:before {
+  content: "\e90a";
+}
+.ng-bullet:before {
+  content: "\e90b";
+}
+.ng-bullet-possible:before {
+  content: "\e90c";
+}
+.ng-bullets:before {
+  content: "\e90d";
+}
+.ng-business:before {
+  content: "\e90e";
+}
+.ng-cam_indoor:before {
+  content: "\e965";
+}
+.ng-cam_outdoor:before {
+  content: "\e966";
+}
+.ng-cam_unspecified:before {
+  content: "\e96f";
+}
+.ng-cam_unspecified1:before {
+  content: "\e972";
+}
+.ng-cart:before {
+  content: "\e90f";
+}
+.ng-certificate:before {
+  content: "\e910";
+}
+.ng-cfs_neglect:before {
+  content: "\e973";
+}
+.ng-cfs_traffic_acc:before {
+  content: "\e974";
+}
+.ng-chart-circle:before {
+  content: "\e911";
+}
+.ng-chart-circular-hierarchical:before {
+  content: "\e912";
+}
+.ng-chart-clustered:before {
+  content: "\e913";
+}
+.ng-chart-force-directed:before {
+  content: "\e914";
+}
+.ng-chart-force-directed-2:before {
+  content: "\e915";
+}
+.ng-chart-hierarchical:before {
+  content: "\e916";
+}
+.ng-chart-spring:before {
+  content: "\e917";
+}
+.ng-check-square:before {
+  content: "\e918";
+}
+.ng-chevron-minus:before {
+  content: "\e919";
+}
+.ng-chevron-plus:before {
+  content: "\e91a";
+}
+.ng-coin:before {
+  content: "\e91b";
+}
+.ng-coins:before {
+  content: "\e91c";
+}
+.ng-condo:before {
+  content: "\e91d";
+}
+.ng-criminal:before {
+  content: "\e91e";
+}
+.ng-crosshair:before {
+  content: "\e91f";
+}
+.ng-death:before {
+  content: "\e975";
+}
+.ng-deceased-square:before {
+  content: "\e920";
+}
+.ng-disorderly-conduct:before {
+  content: "\e921";
+}
+.ng-doc-report:before {
+  content: "\e96e";
+}
+.ng-document:before {
+  content: "\e922";
+}
+.ng-documents:before {
+  content: "\e923";
+}
+.ng-domestic-dispute:before {
+  content: "\e924";
+}
+.ng-driver-license:before {
+  content: "\e925";
+}
+.ng-drugs:before {
+  content: "\e926";
+}
+.ng-dui:before {
+  content: "\e976";
+}
+.ng-education:before {
+  content: "\e927";
+}
+.ng-employee:before {
+  content: "\e928";
+}
+.ng-exclamation:before {
+  content: "\e962";
+}
+.ng-explosives:before {
+  content: "\e929";
+}
+.ng-family:before {
+  content: "\e977";
+}
+.ng-field:before {
+  content: "\e978";
+}
+.ng-filter:before {
+  content: "\e92a";
+}
+.ng-filter-off:before {
+  content: "\e92b";
+}
+.ng-fire:before {
+  content: "\e92c";
+}
+.ng-fish:before {
+  content: "\e92d";
+}
+.ng-fist:before {
+  content: "\e92e";
+}
+.ng-footprints:before {
+  content: "\e92f";
+}
+.ng-fraud:before {
+  content: "\e930";
+}
+.ng-fraud-card:before {
+  content: "\e979";
+}
+.ng-gavel:before {
+  content: "\e931";
+}
+.ng-hammer:before {
+  content: "\e932";
+}
+.ng-hand-stop:before {
+  content: "\e933";
+}
+.ng-handcuffs:before {
+  content: "\e934";
+}
+.ng-harass:before {
+  content: "\e97a";
+}
+.ng-heat-map:before {
+  content: "\e95f";
+}
+.ng-home:before {
+  content: "\e935";
+}
+.ng-homicide:before {
+  content: "\e936";
+}
+.ng-info:before {
+  content: "\e937";
+}
+.ng-jail:before {
+  content: "\e964";
+}
+.ng-judgment:before {
+  content: "\e938";
+}
+.ng-kidnap:before {
+  content: "\e97b";
+}
+.ng-layers:before {
+  content: "\e939";
+}
+.ng-link:before {
+  content: "\e95b";
+}
+.ng-linked:before {
+  content: "\e95c";
+}
+.ng-lpr:before {
+  content: "\e900";
+}
+.ng-map-hybrid:before {
+  content: "\e93a";
+}
+.ng-map-roadmap:before {
+  content: "\e93b";
+}
+.ng-map-satellite:before {
+  content: "\e93c";
+}
+.ng-map-terrain:before {
+  content: "\e93d";
+}
+.ng-medical-bag:before {
+  content: "\e93e";
+}
+.ng-missing:before {
+  content: "\e97c";
+}
+.ng-money:before {
+  content: "\e93f";
+}
+.ng-music:before {
+  content: "\e940";
+}
+.ng-notepad:before {
+  content: "\e941";
+}
+.ng-offend_arrestee:before {
+  content: "\e967";
+}
+.ng-offend_gang:before {
+  content: "\e968";
+}
+.ng-offend_general:before {
+  content: "\e969";
+}
+.ng-offend_parolee:before {
+  content: "\e96a";
+}
+.ng-offend_prolific:before {
+  content: "\e96b";
+}
+.ng-offend_sex:before {
+  content: "\e96c";
+}
+.ng-offend_warrant:before {
+  content: "\e96d";
+}
+.ng-parking:before {
+  content: "\e942";
+}
+.ng-paws:before {
+  content: "\e943";
+}
+.ng-people:before {
+  content: "\e944";
+}
+.ng-people-globe:before {
+  content: "\e945";
+}
+.ng-person:before {
+  content: "\e946";
+}
+.ng-phone:before {
+  content: "\e947";
+}
+.ng-print:before {
+  content: "\e948";
+}
+.ng-properties:before {
+  content: "\e949";
+}
+.ng-question-mark:before {
+  content: "\e94a";
+}
+.ng-recovered:before {
+  content: "\e97d";
+}
+.ng-robbery:before {
+  content: "\e97e";
+}
+.ng-sex-assault:before {
+  content: "\e94b";
+}
+.ng-sex-offense:before {
+  content: "\e94c";
+}
+.ng-shared-square:before {
+  content: "\e94d";
+}
+.ng-shield-user:before {
+  content: "\e95e";
+}
+.ng-ssn:before {
+  content: "\e94e";
+}
+.ng-table-collapse:before {
+  content: "\e94f";
+}
+.ng-table-expand:before {
+  content: "\e950";
+}
+.ng-traffic-cone:before {
+  content: "\e951";
+}
+.ng-traffic-light:before {
+  content: "\e952";
+}
+.ng-trespass:before {
+  content: "\e97f";
+}
+.ng-unlink:before {
+  content: "\e95d";
+}
+.ng-us-map:before {
+  content: "\e963";
+}
+.ng-vehicle:before {
+  content: "\e953";
+}
+.ng-vehicle-accident:before {
+  content: "\e954";
+}
+.ng-vehicle-fatality:before {
+  content: "\e955";
+}
+.ng-vehicle-theft:before {
+  content: "\e956";
+}
+.ng-vote:before {
+  content: "\e957";
+}
+.ng-watercraft:before {
+  content: "\e958";
+}
+.ng-weapon:before {
+  content: "\e981";
+}
+.ng-hexagon:before {
+  content: "\e982";
+}
+.ng-triangle:before {
+  content: "\e983";
+}
+.ng-le_power:before {
+  content: "\e984";
+}
+.ng-8-pack-v2:before {
+  content: "\e985";
+}
+.ng-8-pack:before {
+  content: "\e986";
+}
+.ng-tower-cell-solid:before {
+  content: "\e987";
+}
+.ng-icon-ai-header:before {
+  content: "\e988";
+  color: #fff;
+}
+.ng-icon-ai--modal:before {
+  content: "\e989";
+  // color: #fff;
+}
+.ng-up-trend:before {
+  content: "\e98a";
+  // color: #fff;
+}
+.ng-down-trend:before {
+  content: "\e98b";
+  // color: #fff;
+}
+.ng-batch-icon:before {
+  content: "\e98c";
+}
+.icon-batch-2:before {
+  content: "\e987";
+}
+.ng-person-light:before {
+  content: "\e98d";
+}
+.ng-person-dark:before {
+  content: "\e98e";
+}
+.ng-car-light:before {
+  content: "\e98f";
+}
+.ng-car-dark:before {
+  content: "\e995";
+}
+.ng-phone-light:before {
+  content: "\e990";
+}
+.ng-phone-dark:before {
+  content: "\e991";
+}
+.ng-reports-light:before {
+  content: "\e992";
+}
+.ng-reports-dark:before {
+  content: "\e996";
+}
+.ng-magnify-light:before {
+  content: "\e993";
+}
+.ng-apps:before {
+  content: "\e994";
+}
