@@ -1,0 +1,39 @@
+{
+  "name": "@lnx-le/ui-common",
+  "version": "0.0.5",
+  "description": "A library of reusable Angular components for USGOV applications",
+  "author": "LexisNexis Risk Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LexisNexis-RBA/usgov-ui-common.git"
+  },
+  "keywords": [
+    "angular",
+    "ui-library",
+    "components",
+    "usgov",
+    "lnx-le"
+  ],
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "^19.1.0 || ^19.2.0",
+    "@angular/common": "^19.1.0 || ^19.2.0",
+    "@angular/router": "^19.1.0 || ^19.2.0"
+  },
+  "module": "fesm2022/lnx-le-ui-common.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/lnx-le-ui-common.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

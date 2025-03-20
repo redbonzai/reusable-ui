@@ -1,0 +1,26 @@
+<aside class="sidebar" [class.collapsed]="!isOpen">
+  <div class="sidebar-header">
+    <button (click)="toggleSidebar()" class="toggle-btn">
+      <i class="fa fa-bars"></i>
+    </button>
+  </div>
+
+  <ul class="sidebar-menu">
+    <li *ngFor="let item of menuItems" [title]="item.label">
+      <div class="menu-item" (click)="handleItemClick(item)">
+        <i class="fa" [ngClass]="item.icon"></i>
+        <span *ngIf="isOpen">{{ item.label }}</span>
+        <i *ngIf="item.items" class="fa fa-chevron-down submenu-toggle" (click)="toggleSubMenu(item, $event)"></i>
+      </div>
+
+      <ul *ngIf="item.isOpen && item.items" class="submenu">
+        <li *ngFor="let subItem of item.items">
+          <a [routerLink]="subItem.url" (click)="handleItemClick(subItem)">
+            <i class="fa" [ngClass]="subItem.icon"></i>
+            <span>{{ subItem.label }}</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</aside>
